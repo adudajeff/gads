@@ -60,7 +60,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.364"
-            android:inputType="Text" />
+           />
 
         <EditText
             android:id="@+id/textFirstname"
@@ -79,7 +79,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.363"
-            android:inputType="Text" />
+            />
 
         <EditText
             android:id="@+id/textEmail"
@@ -96,7 +96,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             android:autofillHints=""
-            android:inputType="Email" />
+             />
 
         <EditText
             android:id="@+id/textGit"
@@ -114,7 +114,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textEmail"
             app:layout_constraintVertical_bias="0.179"
-            android:inputType="Text" />
+           />
 
         <Button
             android:id="@+id/btnsubmit"
