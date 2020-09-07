@@ -106,7 +106,7 @@
             android:gravity="center"
             android:minHeight="50dp"
             android:hint="Project on GITHUB(link)"
-            android:text="https://github.com/adudajeff/gabs"
+            android:text="https://github.com/adudajeff/gads"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
