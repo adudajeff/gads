@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name"> Leaderboard</string>
+    <string name="tab_text_1">Learning Leaders</string>
+    <string name="tab_text_2">Skill IQ Leaders</string>
+    <string name="gadintro">gadintro</string>
+    <string name="submit">Submit</string>
+    <string name="project_submission">Project Submission</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="todo">TODO</string>
+</resources>
