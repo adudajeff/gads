@@ -9,7 +9,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/design_default_color_on_secondary">
+        android:background="@drawable/bgdrawable">
 
         <TextView
             android:id="@+id/textProject"
@@ -28,84 +28,75 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView2"
-            app:layout_constraintVertical_bias="0.06" />
-
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="177dp"
-            android:layout_height="62dp"
-            android:contentDescription="@string/todo"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.115"
-            app:srcCompat="@drawable/gadtop" />
+            app:layout_constraintVertical_bias="0.202" />
 
-        <EditText
-            android:id="@+id/textLastname"
-            android:layout_width="165dp"
-            android:layout_height="39dp"
-            android:background="#fff"
-            android:gravity="center"
-            android:minWidth="100dp"
-            android:minHeight="50dp"
-            android:text=""
-            android:hint="Last Name"
-            android:textSize="20sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.873"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.364"
-           />
 
         <EditText
             android:id="@+id/textFirstname"
-            android:layout_width="165dp"
-            android:layout_height="38dp"
-            android:background="#fff"
+            android:layout_width="155dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginRight="28dp"
+            android:background="@drawable/roundtextview"
             android:gravity="center"
+            android:hint="First Name"
             android:minWidth="100dp"
             android:minHeight="50dp"
             android:text=""
-            android:hint="First Name"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/textLastname"
-            app:layout_constraintHorizontal_bias="0.62"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.363"
-            />
+            app:layout_constraintVertical_bias="0.365" />
+
+        <EditText
+            android:id="@+id/textLastname"
+            android:layout_width="155dp"
+            android:layout_height="43dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginRight="28dp"
+            android:background="@drawable/roundtextview"
+            android:gravity="center"
+            android:hint="Last Name"
+            android:minWidth="100dp"
+            android:minHeight="50dp"
+            android:text=""
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.285"
+            app:layout_constraintStart_toEndOf="@+id/textFirstname"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.362" />
 
         <EditText
             android:id="@+id/textEmail"
-            android:layout_width="350dp"
-            android:layout_height="47dp"
-            android:background="#fff"
+            android:layout_width="335dp"
+            android:layout_height="44dp"
+            android:autofillHints=""
+            android:background="@drawable/roundtextview"
             android:gravity="center"
+            android:hint="Email Address"
             android:minHeight="50dp"
             android:text=""
-            android:hint="Email Address"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:autofillHints=""
-             />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
             android:id="@+id/textGit"
-            android:layout_width="350dp"
-            android:layout_height="47dp"
-            android:background="#fff"
+            android:layout_width="333dp"
+            android:layout_height="40dp"
+            android:background="@drawable/roundtextview"
             android:gravity="center"
-            android:minHeight="50dp"
             android:hint="Project on GITHUB(link)"
+            android:minHeight="50dp"
             android:text="https://github.com/adudajeff/gads"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -113,8 +104,7 @@
             app:layout_constraintHorizontal_bias="0.491"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textEmail"
-            app:layout_constraintVertical_bias="0.179"
-           />
+            app:layout_constraintVertical_bias="0.179" />
 
         <Button
             android:id="@+id/btnsubmit"
